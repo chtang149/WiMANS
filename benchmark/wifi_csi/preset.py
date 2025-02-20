@@ -13,7 +13,7 @@ preset = {
     "task": "activity",                                 # "identity", "activity", "location"
     #
     ## number of repeated experiments
-    "repeat": 1,
+    "repeat": 2,
     #
     ## path of data
     "path": {
