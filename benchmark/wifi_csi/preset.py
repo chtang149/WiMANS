@@ -13,12 +13,12 @@ preset = {
     "task": "activity",                                 # "identity", "activity", "location"
     #
     ## number of repeated experiments
-    "repeat": 2,
+    "repeat": 1,
     #
     ## path of data
     "path": {
-        "data_x": "dataset/wifi_csi/amp",               # directory of CSI amplitude files 
-        "data_y": "dataset/annotation.csv",             # path of annotation file
+        "data_x": "/media/tonic/Data/Chtang/WiMANS/dataset/wifi_csi/amp",               # directory of CSI amplitude files 
+        "data_y": "/media/tonic/Data/Chtang/WiMANS/dataset/annotation.csv",             # path of annotation file
         "save": "result.json"                           # path to save results
     },
     #
