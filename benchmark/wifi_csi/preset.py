@@ -17,8 +17,8 @@ preset = {
     #
     ## path of data
     "path": {
-        "data_x": "/media/tonic/Data/Chtang/WiMANS/dataset/wifi_csi/amp",               # directory of CSI amplitude files 
-        "data_y": "/media/tonic/Data/Chtang/WiMANS/dataset/annotation.csv",             # path of annotation file
+        "data_x": "dataset/wifi_csi/amp",               # directory of CSI amplitude files 
+        "data_y": "dataset/annotation.csv",             # path of annotation file
         "save": "result.json"                           # path to save results
     },
     #
@@ -34,7 +34,7 @@ preset = {
     "nn": {
         "lr": 1e-3,                                     # learning rate
         "epoch": 200,                                   # number of epochs
-        "batch_size": 128,                              # batch size
+        "batch_size": 64,                              # batch size
         "threshold": 0.5,                               # threshold to binarize sigmoid outputs
     },
     #
